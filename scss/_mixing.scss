@@ -1,0 +1,26 @@
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}
+
+@mixin gradientbtn($normalbtn: false) {
+	@if $normalbtn {
+		border-color: rgb(169,86,229);
+		border-color: -moz-linear-gradient(22deg, rgba(169,86,229,1) 0%, rgba(123,58,244,1) 50%, rgba(92,39,254,1) 100%);
+		border-color: -webkit-linear-gradient(22deg, rgba(169,86,229,1) 0%, rgba(123,58,244,1) 50%, rgba(92,39,254,1) 100%);
+		border-color: linear-gradient(22deg, rgba(169,86,229,1) 0%, rgba(123,58,244,1) 50%, rgba(92,39,254,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a956e5",endColorstr="#5c27fe",GradientType=1);
+		background:#fff;
+		color: #6f32f8;
+	}
+	@else{
+		background: rgb(169,86,229);
+		background: -moz-linear-gradient(22deg, rgba(169,86,229,1) 0%, rgba(123,58,244,1) 50%, rgba(92,39,254,1) 100%);
+		background: -webkit-linear-gradient(22deg, rgba(169,86,229,1) 0%, rgba(123,58,244,1) 50%, rgba(92,39,254,1) 100%);
+		background: linear-gradient(22deg, rgba(169,86,229,1) 0%, rgba(123,58,244,1) 50%, rgba(92,39,254,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a956e5",endColorstr="#5c27fe",GradientType=1);
+		color: #fff;
+	}
+	
+}

@@ -1,0 +1,14 @@
+{
+  "name": "codersclan",
+  "version": "1.0.0",
+  "description": "codersclan practicle test",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Dileepa Niroshan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

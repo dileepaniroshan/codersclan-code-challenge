@@ -1,0 +1,36 @@
+{
+	"title": "CodersClan Frontend Test",
+	"cards": [
+		{
+			"image":"images/table.png", 
+			"title": "Aenean nec sem vestibulum", 
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac.",
+			"outline" : true,
+			"align_left" : true
+		}, 
+		{
+			"image":"images/table.png", 
+			"title": "Aenean nec sem vestibulum", 
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac. Morbi quis elementum ipsum",
+			"overlay_image": "images/monitor-color.png",
+			"overlay_title": "Aenean nec sem vestibulum",
+			"overlay_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac.",
+			"overlay": true,
+			"normal" : true
+		}, 
+		{
+			"image":"images/table.png",
+			"background":"card3.png", 
+			"title": "Aenean nec sem vestibulum", 
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac. Morbi quis elementum ipsum",
+			"overlay_image": "images/monitor-white.png",
+			"overlay_background_image": "images/hover-background.png",
+			"overlay_title": "Aenean nec sem vestibulum",
+			"overlay_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac.",
+			"overlay_image_background": true
+		}
+
+		
+	],
+	"cta": "Aenean vitae"
+}

@@ -1,0 +1,19 @@
+.btn{
+	&.regular{
+		color: #fff;
+		background-color: #007bff;
+		border-color: #007bff;
+		margin: 0 auto;
+		margin: 63px auto 78px auto;
+		padding: 10px 57px;
+		@include border-radius(8px);
+		@include gradientbtn($normalbtn: true);
+		&:hover, &:active, &:focus{
+			@include gradientbtn($normalbtn: false);
+		}
+		cursor: pointer;
+		font-family: 'Myriad Pro Regular', sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+	}
+}

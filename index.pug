@@ -1,0 +1,50 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        title Codersclan
+        link(rel="stylesheet" href="dist/css/bootstrap.min.css")
+        link(rel="stylesheet" type="text/css" href="dist/css/style.css")
+    body
+        //start of hero section
+        section#hero
+            img(src="images/hero-background.png" class="background-gradient")
+            div.background-wrapper
+                div(class='layer-bg layer' data-depth='0.10' data-type='parallax')
+                div(class='layer-1 layer' data-depth='0.30' data-type='parallax')
+                div(class='layer-2 layer' data-depth='0.55' data-type='parallax')
+                div(class='layer-3 layer' data-depth='1.5' data-type='parallax')
+                div(class='layer-4 layer' data-depth='0.55' data-type='parallax')
+                div(class='layer-5 layer' data-depth='0.40' data-type='parallax')
+                div(class='layer-6 layer' data-depth='0.30' data-type='parallax')
+                div(class='layer-7 layer' data-depth='0.40' data-type='parallax')
+                div(class='layer-8 layer' data-depth='0.40' data-type='parallax')
+        
+        //start of tab header
+        section.tab-banner
+            img(src="images/hero-banner.png")
+
+        //start of mobile header
+        section.mobile-banner
+            img(src="images/mobile-header.png")
+        
+        //start of upper content boxes
+        section.main-content.upper
+            div.container
+                h2.title
+                div.boxes
+                    div.row
+                    div.btn.regular.cta
+        
+        //start of bottom content boxes
+        section.main-content
+            div.container
+                h2.title
+                div.boxes
+                    div.row
+                    div.btn.regular.cta
+        //incluing js file
+        script(src="js/main.js")
+        
